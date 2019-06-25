@@ -179,16 +179,9 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p> Atom - Emmet插件的使用详解（HTML/CSS代码自动补全)</p>
-<ul>
-<li><p>ul &gt; li *6<br>按tab 自定生成<br><img src="../Pic/WechatIMG1626.jpeg" width="30%" height="30%"></p>
-</li>
-<li><p>后代符号 ： &gt;</p>
-</li>
-<li>兄弟符号： +</li>
-<li>上级符号：^</li>
-</ul>
-<p>参考：<br><a href="http://www.hangge.com/blog/cache/detail_1537.html" target="_blank" rel="external">http://www.hangge.com/blog/cache/detail_1537.html</a></p>
-
+        
+          <a class="article-more-a" href="/2017/10/16/html插件emmet/#more">more >></a>
+        
       
 
       
@@ -268,21 +261,9 @@
 <li>生成静态文件 hexo generate</li>
 <li>配置文件：blog目录下的_config.yml里有很多配置项，(注释修改文件中的空格，不能有错误格式)，冒号后面必须有一个空格，否则可能会出问题</li>
 </ul>
-<p>全部命令参考：<br><a href="https://hexo.io/docs/commands.html" target="_blank" rel="external">https://hexo.io/docs/commands.html</a></p>
-<p>参考：<br><a href="http://www.maintao.com/2014/hexo-beginner%27s-guide/" target="_blank" rel="external">http://www.maintao.com/2014/hexo-beginner%27s-guide/</a></p>
-<p><a href="http://www.jianshu.com/p/465830080ea9" target="_blank" rel="external">http://www.jianshu.com/p/465830080ea9</a></p>
-<ul>
-<li>hexo s -g #生成并本地预览</li>
-<li>hexo d -g #生成并上传</li>
-</ul>
-<p>node 版本 v5.11.1</p>
-<ul>
-<li>草稿功能</li>
-</ul>
-<p>草稿相当于很多博客都有的“私密文章”功能。<br>$ hexo new draft “new draft”<br>会在source/_drafts目录下生成一个new-draft.md文件。但是这个文件不被显示在页面上，链接也访问不到。也就是说如果你想把某一篇文章移除显示，又不舍得删除，可以把它移动到_drafts目录之中。</p>
-<p>如果你希望强行预览草稿，更改配置文件：<br><figure class="highlight plain"><figcaption><span>true```</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">或者，如下方式启动server：</div><div class="line">```$ hexo server --drafts</div></pre></td></tr></table></figure></p>
-<p>下面这条命令可以把草稿变成文章，或者页面：<br><code>$ hexo publish [layout] &lt;filename&gt;</code></p>
-
+        
+          <a class="article-more-a" href="/2017/10/16/hexo-搭建博客/#more">more >></a>
+        
       
 
       
@@ -359,40 +340,10 @@
 <li>head ,body ,meta ,title</li>
 <li>br ,p,center,</li>
 <li>pre  预格式设置</li>
-<li>li 列表样式 ul 无序列表 ol 有序列表</li>
-<li>h*(1-6),</li>
-<li>frameset 每一部分加载不同的网页，实现一个窗口加载多个页面的效果；</li>
-<li>form 表单； input type=””</li>
-<li>内嵌式 ：style=”background-color:red”</li>
-<li><p>嵌入式</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&lt;style type=&quot;text/css&quot;&gt;</div><div class="line"> body &#123;</div><div class="line">   background-color:green;</div><div class="line"> &#125;</div><div class="line">&lt;style&gt;</div></pre></td></tr></table></figure>
-</li>
-<li><p>引入式</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;style.css&quot;&gt;&lt;/link&gt;</div></pre></td></tr></table></figure>
-</li>
-<li><p>标签选择器；</p>
-</li>
-<li>class选择器； .className</li>
-<li>id选择器； #id,唯一的</li>
-<li>优先级 id &gt;class &gt; html标签</li>
-<li>伪元素访问器；超链接的， a:link  a:hover a:active a:visited</li>
-<li>颜色属性； color;</li>
-<li>字体属性； font;</li>
-<li>背景属性； background-color</li>
-<li>文本属性； text-align line-height letter-spacing; word-spacing; direction;text-transform(文本大小写)</li>
-<li>边框属性；border;</li>
-<li>列表属性；list</li>
-<li>div span 为 css 标记产生，本身没任何意义；<br>div 块级 span 内联元素</li>
-<li>盒子模型 width height 指的是真正的内容区域， width+border + padding+ margin = fatherViewWidth</li>
-<li>布局<br>相对定位： position: relative;<br>绝对定位: position: absolute;  相对父元素；<br>绝对定位absolute就是相对于父元素的定位，不受父元素内其他子元素的影响；<br>相对定位relative是相对于同级元素的定位， 相对自己的原来位置的移动</li>
-<li>固定 ：position: fixed;</li>
-<li>z-index: 界面显示上次层次优先级；默认为0；</li>
-<li>display:none;  block; inline;<br>块元素可以定义宽度，内联元素不可以；</li>
-<li>float:浮动 clear 清除浮动；</li>
-<li>overflow: 界面超出处理；</li>
 </ul>
-<p>参考：<br><a href="http://www.w3school.com.cn/cssref/index.asp" target="_blank" rel="external">http://www.w3school.com.cn/cssref/index.asp</a></p>
-
+        
+          <a class="article-more-a" href="/2017/10/16/html &&css/#more">more >></a>
+        
       
 
       
@@ -466,15 +417,9 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
+        
+          <a class="article-more-a" href="/2017/10/11/hello-world/#more">more >></a>
+        
       
 
       
@@ -613,11 +558,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">h5</a>
+                <a href="javascript:void(0)" class="js-tag color2">Atom  Emmet</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Atom  Emmet</a>
+                <a href="javascript:void(0)" class="js-tag color3">h5</a>
               </li>
             
             <div class="clearfix"></div>
